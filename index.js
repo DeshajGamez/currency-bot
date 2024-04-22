@@ -3,6 +3,7 @@ const {
   Intents,
   MessageEmbed
 } = require("discord.js");
+const keep_alive = require('./keep_alive.js')
 const https = require('follow-redirects').https;
 const fs = require("fs");
 const config = require('./config.json')
